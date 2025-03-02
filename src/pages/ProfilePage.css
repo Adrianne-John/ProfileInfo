@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Jua&family=League+Spartan:wght@100..900&');
+
+  /* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan';
+    background-color: #fffff0;
+  }
+  
+  /* Profile Container */
+  .profile-container {
+    width: 100%;
+  }
+  
+/* Profile Banner */
+.profile-banner {
+  width: 100%;
+  height: 300px;
+  background: url("https://plus.unsplash.com/premium_photo-1661493645569-ce21b164c211?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGVyc29uJTIwdHlwaW5nfGVufDB8fDB8fHww") center/cover no-repeat;
+}
+
+/* Profile Image */
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: white;
+  border: 4px solid #800020;
+  margin: -60px auto 10px auto;
+  display: block;
+  
+  /* Add profile image */
+  background: url("https://i.pinimg.com/736x/ce/f0/99/cef099b024bc47622aba355a444fc20a.jpg") center/cover no-repeat;
+}
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Profile Name & Info */
+.profile-name, .profile-info {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-info {
+  font-size: 16px;
+  color: #333;
+}
+
+
+  /* Profile Content (Side by Side Layout) */
+  .profile-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    width: 100%;
+  }
+  
+  /* Contact Info */
+  .contact-info {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chat-btn {
+    width: 100%;
+    background-color: #800020;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Main Content (Tabs & Panels) */
+  .main-content {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tab {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #ddd;
+  }
+  
+  .tab.active {
+    background-color: #800020;
+    color: white;
+  }
+  
+  /* Panel Content */
+  .panel-content {
+    padding: 10px;
+  }
+  
+  .panel {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
