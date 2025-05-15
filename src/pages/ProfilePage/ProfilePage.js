@@ -49,7 +49,6 @@ const ProfilePage = () => {
             </div>
             <div className="adri-main-container">
               <div className="adri-main-content">
-                {/* Add content here if needed */}
               </div>
             </div>
           </div>
