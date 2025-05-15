@@ -76,11 +76,10 @@ body {
 .content-wrapper{
   display: flex;
   margin: 20px 0 0 20vw;
-  gap: 20px;
 }
 
 .adri-contact-container{
-  width: 25vw;
+  width: 20vw;
   background-color: #D9D9D9;
   color: #800020;
   border-radius: 8px;
