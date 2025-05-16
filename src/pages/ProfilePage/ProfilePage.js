@@ -30,13 +30,13 @@ const ProfilePage = () => {
           <div className="contact-info-container">
             <h2 className="contact-title">Contact Information</h2>
             <p className="contact-gmail">
-              <FaEnvelope className="contact-icon" /> haha cute
+              <FaEnvelope className="contact-icon" /> adriannejohncamusofficial@gmail.com
             </p>
             <p className="contact-linkedin">
-              <FaLinkedin className="contact-icon" /> adri
+              <FaLinkedin className="contact-icon" /> <a className="links" href="https://www.linkedin.com/in/adriannecamus" > Adrianne John G. Camus </a>
             </p>
             <p className="contact-github">
-              <FaGithub className="contact-icon" /> adri
+              <FaGithub className="contact-icon" /> <a className="links" href="https://github.com/Adrianne-John" > Adriannne-John </a>
             </p>
             <p className="contact-loc">
               <FaMapMarkerAlt className="contact-icon" /> Apas, Cebu City

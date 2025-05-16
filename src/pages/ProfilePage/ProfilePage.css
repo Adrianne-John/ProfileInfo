@@ -99,6 +99,10 @@ body {
   margin-right: 8px;
   color: #2A2A2A;
 }
+.links{
+  text-decoration: none;
+  color: #800020;
+}
 .contact-gmail p, .contact-linkedin p, .contact-github p, .contact-loc p{
   margin: 0;
 }
